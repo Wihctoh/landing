@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+/* --------------------------header---------------------------- */
+
+body {
+  width: 1120px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+header .img-logo {
+  background-image: url(./assets/img-logo.png);
+  width: 124px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .btn {
+  width: 147px;
+  background: linear-gradient(44.11deg, #8fbbe5 15.75%, #3d75bf 84.63%);
+  border-radius: 33px;
+  font: 700 16px "Mulish";
+  text-align: center;
+  color: #fff;
+  padding: 15px 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #f5f5f5;
+  position: fixed;
+  width: 1120px;
+  margin: 0 auto;
+  top: 0;
+}
+header nav {
+  display: flex;
+}
+
+header nav p:not(:last-child) {
+  margin-right: 35px;
+}
+
+/* ------------------------section-introductory------------------------- */
+
+.introductory {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+.introductory .video {
+  background-image: url(./assets/Group7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 520px;
+  height: 380px;
+  position: relative;
+  left: 120px;
+}
+.introductory .info {
+  width: 560px;
+}
+.introductory h1 {
+  font: 800 60px "Mulish";
+  color: #001a49;
+}
+.introductory p {
+  font: 400 20px "Mulish";
+  color: #4f596a;
+  margin-top: 20px;
+}
+.introductory .btn {
+  background: linear-gradient(44.11deg, #8fbbe6 15.75%, #3d75bf 84.63%);
+  border-radius: 33px;
+  width: 206px;
+  padding: 19px 0;
+  text-align: center;
+  color: #fff;
+  font: 700 20px "Mulish";
+  margin-top: 35px;
+}
+
+/* ------------------------section-statistics------------------------- */
+
+.statistics h2 {
+  font: 800 40px "Mulish";
+  color: #001a49;
+}
+.statistics p {
+  font: 400 16px "Mulish";
+  color: #4f596a;
+}
+.statistics .wrapper {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #e7eaeb;
+  border-radius: 21px;
+  height: 172px;
+}
+.statistics .wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 373px;
+}
+.statistics .wrapper div:not(:last-child) {
+  border-right: 1px solid #e7eaeb;
+}
