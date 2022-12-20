@@ -14,6 +14,10 @@
   font-family: "Mulish";
   src: url(./fonts/Mulish-Medium.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Poppins-Medium.ttf) format("truetype");
+}
 
 * {
   margin: 0;
@@ -187,7 +191,6 @@ header nav p:not(:last-child) {
   flex-direction: column;
   text-align: start;
   padding-right: 40px;
-  
 }
 .advantage_text h3 {
   font: 800 24px "Mulish";
@@ -201,10 +204,56 @@ header nav p:not(:last-child) {
 }
 
 .advantage .advantage__subscribe {
-}
-.advantage__subscribe h2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  align-items: center;
 }
 .advantage__subscribe_img {
+  background-image: url(./assets/tag.png);
+  width: 146px;
+  height: 116px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.advantage__subscribe h2 {
+  font: 800 50px "Mulish";
+  color: #001a49;
+  padding-top: 43px;
 }
 .advantage__subscribe .btn {
+  color: #fff;
+  font: 700 20px "Mulish";
+  background: linear-gradient(44.11deg, #8fbbe6 15.75%, #3d75bf 84.63%);
+  border-radius: 33px;
+  width: 206px;
+  height: 69px;
+  text-align: center;
+  padding-top: 19px;
+  margin-top: 56px;
 }
+
+/* ------------------------footer------------------------- */
+footer {
+  display: flex;
+  justify-content:space-between;
+  padding: 129px 0 85px;
+}
+.contact .img {
+  background-image: url(./assets/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 330px;
+  height: 56px;
+}
+.contact p {
+  font: 500 27px "Milish";
+  color: #707070;
+}
+
+footer p {
+  font: 500 28px "Poppins";
+  color: #707070; 
+}
+
+/* ------------------------footer------------------------- */
