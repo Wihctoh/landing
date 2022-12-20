@@ -114,6 +114,9 @@ header nav p:not(:last-child) {
 
 /* ------------------------section-statistics------------------------- */
 
+.statistics {
+  padding-top: 203px;
+}
 .statistics h2 {
   font: 800 40px "Mulish";
   color: #001a49;
@@ -140,6 +143,22 @@ header nav p:not(:last-child) {
   border-right: 1px solid #e7eaeb;
 }
 
+.statistics .side-img__wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.side-img__wrapper .side-img {
+  background-image: url(./assets/Side\ Shape.svg);
+  width: 288px;
+  height: 288px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  left: -211px;
+  z-index: -1;
+}
 /* ------------------------section-advantage------------------------- */
 
 .advantage {
@@ -236,7 +255,7 @@ header nav p:not(:last-child) {
 /* ------------------------footer------------------------- */
 footer {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 129px 0 85px;
 }
 .contact .img {
@@ -253,7 +272,7 @@ footer {
 
 footer p {
   font: 500 28px "Poppins";
-  color: #707070; 
+  color: #707070;
 }
 
 /* ------------------------footer------------------------- */
