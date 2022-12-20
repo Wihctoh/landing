@@ -134,3 +134,76 @@ header nav p:not(:last-child) {
 .statistics .wrapper div:not(:last-child) {
   border-right: 1px solid #e7eaeb;
 }
+
+/* ------------------------section-advantage------------------------- */
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 194px;
+}
+.advantage__text h2 {
+  font: 800 46px "Mulish";
+  color: #001a49;
+  text-transform: uppercase;
+}
+.advantage__text p {
+  font: 400 20px "Mulish";
+  color: #4f596a;
+  width: 560px;
+  padding-top: 16px;
+}
+
+.advantage .advantage__list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 61px;
+}
+.advantage .advantage__item {
+  display: flex;
+  background: #eef7ff;
+  mix-blend-mode: normal;
+  border-radius: 21px;
+  height: 172px;
+  margin-bottom: 30px;
+}
+.advantage__img_container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 46px;
+}
+.advantage__item .advantage__img {
+  background-image: url(./assets/Group8.png);
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.advantage .advantage_text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-right: 40px;
+  
+}
+.advantage_text h3 {
+  font: 800 24px "Mulish";
+  color: #001a49;
+  padding-top: 39px;
+}
+.advantage_text p {
+  font: 400 16px "Mulish";
+  color: #4f596a;
+  padding-top: 20px;
+}
+
+.advantage .advantage__subscribe {
+}
+.advantage__subscribe h2 {
+}
+.advantage__subscribe_img {
+}
+.advantage__subscribe .btn {
+}
