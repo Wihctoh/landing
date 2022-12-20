@@ -132,6 +132,8 @@ header nav p:not(:last-child) {
   border: 1px solid #e7eaeb;
   border-radius: 21px;
   height: 172px;
+  position: relative;
+  z-index: 2;
 }
 .statistics .wrapper div {
   display: flex;
@@ -158,7 +160,7 @@ header nav p:not(:last-child) {
   position: absolute;
   top: 20px;
   left: -211px;
-  z-index: -1;
+  z-index: 1;
 }
 /* ------------------------section-advantage------------------------- */
 
