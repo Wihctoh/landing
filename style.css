@@ -38,13 +38,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 15px 100px 0; */
+  padding: 15px 50px 0;
   background-color: #f5f5f5;
   position: fixed;
-  /* width: 100%; */
-  width: 1120px;
+  width: 100%;
   top: 0;
-  /* left: 0; */
+  left: 0;
   z-index: 10000;
 }
 header .img-logo {
@@ -289,8 +288,14 @@ footer p {
   header nav {
     display: none;
   }
+
+  /* ------------------------@media-introductory---------------- */
+
   .introductory {
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+  .introductory .info {
+    margin: auto;
   }
   .introductory h1 {
     font: 800 30px "Mulish";
@@ -298,8 +303,22 @@ footer p {
   }
   .introductory .info p {
     text-align: center;
+    margin-top: 10px;
+  }
+  .introductory .info .btn {
+    margin-top: 10px;
+    margin: auto;
   }
   .introductory .video {
+    display: none;
+  }
+
+  /* ------------------------@media-statistics-------------------- */
+
+  .statistics {
+    padding-top: 50px;
+  }
+  .statistics .side-img__wrapper .side-img {
     display: none;
   }
   .statistics .wrapper {
@@ -311,11 +330,14 @@ footer p {
   .statistics .wrapper div:not(:last-child) {
     border-width: 0;
   }
-  .introductory .btn {
-    margin: auto;
+
+  /* ------------------------@media-advantage-------------------- */
+
+  .advantage {
+    padding-top: 100px;
   }
-  .statistics {
-    padding-top: 50px;
+  .advantage__text h2 {
+    font-size: 20px;
   }
   .advantage .advantage__list {
     max-width: 600px;
@@ -324,15 +346,12 @@ footer p {
     height: 200px;
     margin-bottom: 0px;
   }
-  .side-img__wrapper .side-img {
-    display: none;
+  .advantage .advantage__subscribe {
+    padding-top: 40px;
   }
   .advantage__subscribe_img {
     max-width: 100px;
     max-height: 70px;
-  }
-  .advantage .advantage__subscribe {
-    padding-top: 40px;
   }
   .advantage__subscribe h2 {
     font-size: 40px;
@@ -341,10 +360,13 @@ footer p {
   .advantage__subscribe .btn {
     margin-top: 20px;
   }
+
+  /* ------------------------@media-footer-------------------- */
+
   footer {
     padding-top: 65px;
     padding: 50px 0 40px;
-    justify-content:space-around;
+    justify-content: space-around;
   }
   footer p {
     font-size: 20px;
@@ -355,14 +377,5 @@ footer p {
   .contact .img {
     max-width: 250px;
     max-height: 40px;
-  }
-  .advantage__text h2{
-    font-size: 20px;
-  }
-  .advantage {
-    padding-top: 100px;
-  }
-  .introductory .info{
-    margin: auto;
   }
 }
