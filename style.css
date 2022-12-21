@@ -289,6 +289,7 @@ footer p {
     display: none;
   }
 
+
   /* ------------------------@media-introductory---------------- */
 
   .introductory {
@@ -306,8 +307,7 @@ footer p {
     margin-top: 10px;
   }
   .introductory .info .btn {
-    margin-top: 10px;
-    margin: auto;
+    margin: 10px auto;
   }
   .introductory .video {
     display: none;
@@ -316,7 +316,7 @@ footer p {
   /* ------------------------@media-statistics-------------------- */
 
   .statistics {
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .statistics .side-img__wrapper .side-img {
     display: none;
@@ -334,13 +334,14 @@ footer p {
   /* ------------------------@media-advantage-------------------- */
 
   .advantage {
-    padding-top: 100px;
+    padding-top: 70px;
   }
   .advantage__text h2 {
     font-size: 20px;
   }
   .advantage .advantage__list {
     max-width: 600px;
+    padding-top: 10px;
   }
   .advantage .advantage__item {
     height: 200px;
